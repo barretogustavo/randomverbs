@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>RandomVerbs - Aprenda Verbos em Inglês</title>
+</head>
+<body>
+    <div class="area-do-verbo">
+        <p class="titulo-da-area">VERBO:</p>
+        <h2 class="verbo-principal">To ask</h2>
+
+        <p class="titulo-da-area">TRADUÇÃO</p>
+        <h2 class="verbo-principal-traducao">PERGUNTAR</h2>
+
+        <div class="area-do-botao">
+        <button onclick="abrirModal()" class="botao-aprender-mais">Aprender mais sobre <p class="aprender-sobre">To Ask</p></button>
+        <button class="botao-do-icone-random" onclick="fecthVerbos()"><i class="icone-random fas fa-random"></i></button>
+        </div>
+        <div class="criado-por">
+            <p>Desenvolvido por Gustavo Barreto</p>
+            <a href="https://github.com/barretogustavo" target="_blank"><i class="fab fa-github icones"></i></a>
+            <a href="https://www.instagram.com/gustavobarreto.dev/" target="_blank"><i class="fab fa-instagram icones"></i></a>
+            <a href="https://www.linkedin.com/in/gustavobarretodev/" target="_blank"><i class="fab fa-linkedin icones"></i></a>
+        </div>
+    </div>
+
+    <div class="container-modal">
+        <div class="modal">
+            <div class="exemplo-modal">
+                <p class="titulo-da-area">Exemplo em inglês</p>
+                <h2 class="texto-modal m-exemplo-ingles">I want to ask you a question, if you dont't mind.</h2>
+                
+                <p class="titulo-da-area margin-traducao">Exemplo em português</p>
+                <h2 class="texto-modal m-exemplo-portugues">Eu quero te fazer uma pergunta, se você não se importa.</h2>
+            </div>
+            <div class="area-simplepast">
+                <div class="simplepast">
+                    <div class="titulo-da-area">Simple past</div>
+                    <div class="verbo-principal-simplepast m-simplepast">Asked</div>
+                </div>
+                <div class="simplepast">
+                    <div class="titulo-da-area">Modelo do Simple Past</div>
+                    <div class="verbo-principal-simplepast m-modelo-simplepast">Ask + ed</div>
+                </div>
+                <div class="simplepast">
+                    <div class="titulo-da-area">Tradução do Simple past</div>
+                    <div class="verbo-principal-simplepast m-traducao-simplepast">Perguntou</div>
+                </div>
+            </div>
+            <div class="exemplo-modal">
+                <p class="titulo-da-area">Exemplo Simple past em inglês</p>
+                <h2 class="texto-modal m-exemplo-simplepast">He asked my name.</h2>
+                
+                <p class="titulo-da-area margin-traducao">Exemplo Simple past em português</p>
+                <h2 class="texto-modal m-exemplo-simplepast-traducao">Ele perguntou meu nome.</h2>
+            </div>
+            <div class="div-botao">
+                <i class="fas fa-arrow-circle-left botao-voltar" onclick="fecharModal()"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
