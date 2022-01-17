@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Open+Sans:wght@400;800&family=Roboto:ital,wght@0,100;1,300&display=swap');
 *{
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
 .area-do-verbo{
     width: 100vw;
-    height: 100vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +24,7 @@
     text-align: center;
     font: 130px 'Open Sans';
     font-weight: bold;
+    margin: 0px 20px 0px 20px;
 
     /* gradiente */
   background-image:linear-gradient(to right, #e3c924, #f38c19);
@@ -41,7 +42,8 @@
 }
 
 .area-do-botao{
-    width: 400px;
+    width: 100%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -160,6 +162,16 @@
         flex-direction: column;
         justify-content:center;
     }
+    .verbo-principal{
+        font-size: 80px;
+    }
+    .area-do-botao{
+    position: relative;
+    top: 20%;
+    }
+    .area-do-verbo{
+        height: 75vh;
+    }
 }
 @media (max-width:430px){
     .modal{
@@ -168,6 +180,9 @@
     .div-botao{
         margin-top: 30px;
         margin-left: 30px;
+    }
+    .verbo-principal{
+        font-size: 60px;
     }
 }
 @media (max-width:370px){
@@ -194,7 +209,7 @@
     text-align: center;
     font-family: 'Open sans';
     color: #292929;
-    margin-top: 300px;
+    margin-top: 15%;
 }
 .icones{
     color: #292929;
