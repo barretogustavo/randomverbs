@@ -57,7 +57,7 @@ function mostrarInfo(verbos){
 	document.querySelector('.m-modelo-simplepast').innerHTML = `${verbos.simplePastModel}`;
 	document.querySelector('.m-traducao-simplepast').innerHTML = `${verbos.simplePastTrad}`;
 	document.querySelector('.m-exemplo-simplepast').innerHTML = `${verbos.simplePastExample}`;
-	document.querySelector('m-exemplo-simplepast-traducao').innerHTML = `${verbos.simplePastExampleTrad}`;
+	document.querySelector('.m-exemplo-simplepast-traducao').innerHTML = `${verbos.simplePastExampleTrad}`;
 }
 
 function abrirModal(){
