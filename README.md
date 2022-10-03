@@ -1,3 +1,3 @@
 # RandomVerbs
 
-Visit randomverbs.vercel.app
+Visit https://randomverbs.vercel.app/
